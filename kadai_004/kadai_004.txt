@@ -1,0 +1,35 @@
+PS C:\Users\a83_s> cd C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\a83_s\OneDrive\デスクトッ
+    プ\samurai_terakoya\samurai_kadai
+
+
+Mode                 LastWriteTime         Length Nam
+                                                  e  
+----                 -------------         ------ ---
+d-----        2024/03/19     21:47                git
+                                                  _ch
+                                                  all
+                                                  eng
+                                                  e  
+
+
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai> cd git_challenge
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/a83_s/OneDrive/繝・せ繧ｯ繝医ャ繝・samurai_terakoya/samurai_kadai/git_challenge/.git/
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> echo "Hello,world!" >> hello_world.txt
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> git add .
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) ca42e04] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> git add hello_world.txt                     
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> git commit -m "日本語"訳を追記"             
+[main 91ed2ed] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 0 insertions(+), 0 deletions(-)      
+PS C:\Users\a83_s\OneDrive\デスクトップ\samurai_terakoya\samurai_kadai\git_challenge> git log --oneline
+91ed2ed (HEAD -> main) 日本語訳を追記
+ca42e04 hello_world.txtを追加
